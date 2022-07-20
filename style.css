@@ -27,7 +27,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
-button {
+.submit {
   background-color: hsl(25, 97%, 53%);
   border: none;
   color: white;
@@ -35,6 +35,11 @@ button {
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   border-radius: 2rem;
+}
+
+.submit:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
 }
 
 .points {
@@ -54,6 +59,11 @@ button {
   border-radius: 50%;
   color: hsl(217, 12%, 63%);
   font-size: 1.2rem;
+}
+.point:hover{
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 
 
@@ -100,6 +110,8 @@ button {
   padding: .6rem 1.4rem;
   margin-bottom: 2rem;
   font-family: "Overpass", sans-serif;
+  border: none;
+  border-radius: 2rem;
 }
 
 .thank-p{
